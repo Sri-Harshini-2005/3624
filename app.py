@@ -11,6 +11,8 @@ def submit():
     username = request.form['username']
     email = request.form['email']
     year = request.form['year']
+    print("hello")
+    print("my world")
     return render_template('res.html', name=username, email=email, year=year)
 
 if __name__ == '__main__':
